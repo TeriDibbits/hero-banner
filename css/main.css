@@ -14,9 +14,37 @@ html {
 
 h2 {
   font-size: 4rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  line-height: 5rem;
 }
 
 p {
   font-size: 2rem;
   font-style: italic;
+}
+
+article {
+  max-height: 500px;
+}
+
+.banner {
+  overflow: hidden;
+}
+
+.banner-head {
+  position: relative;
+}
+
+.banner-title {
+  margin: 0;
+  position: absolute;
+  padding: .3rem 1rem;
+}
+
+.banner-body {
+  position: absolute;
+  margin: 0;
+  top: 10rem;
+  padding: .3rem 1rem;
 }
