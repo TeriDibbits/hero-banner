@@ -1,0 +1,22 @@
+html {
+	box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+p {
+  font-size: 2rem;
+  font-style: italic;
+}
